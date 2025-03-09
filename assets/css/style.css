@@ -10,13 +10,22 @@ html {
 }
 
 #top-nav {
-    color: var(--main-color) !important;
+    background: var(--main-color) !important;
+    color: #fff !important;
+    font-size: .6rem;
 }
+
+#top-nav h6 {
+    font-size: .6rem;
+}
+
 
 /* navbar */
 nav .navbar-nav a {
     color: var(--main-color) !important;
     transition: all .3s ease-in-out;
+    font-size: 1.4rem;
+    padding: 0 1.2rem
 }
 
 nav .navbar-nav a:hover {
