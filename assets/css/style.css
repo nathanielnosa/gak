@@ -9,6 +9,17 @@ html {
     --main-color: #47002C;
 }
 
+.cta {
+    background: var(--main-color);
+    color: #fff;
+    margin: 0 2.4rem;
+}
+
+.cta:hover {
+    background: var(--main-color);
+    color: #fff;
+}
+
 #top-nav {
     background: var(--main-color) !important;
     color: #fff !important;
